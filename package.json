@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-auth",
+  "version": "1.0.0",
+  "description": "user registration/authentication with nodejs and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoniomihalache/node-mongo-auth.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "authentication"
+  ],
+  "author": "Mihalache Antonio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antoniomihalache/node-mongo-auth/issues"
+  },
+  "homepage": "https://github.com/antoniomihalache/node-mongo-auth#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.6"
+  }
+}
